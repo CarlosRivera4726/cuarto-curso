@@ -107,11 +107,6 @@ footer {
 }
 
 /* editar formulario*/
-main{
-    width: 940px;
-    margin: 0 auto;
-}
-
 form{
     margin: 40px 0;
 }
@@ -172,11 +167,22 @@ select{
     width: 100%;
 }
 
+.principal{
+    padding: 3em 0;
+    background-color: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+}
+
 .titulo-principal{
     text-align: center;
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
+}
+
+.titulo-principal::first-letter{
+    font-weight: bold;
 }
 
 .principal p{
@@ -197,16 +203,51 @@ select{
     
 }
 
-.map{
+.mapa{
     padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #888);
 }
-.map p{
+
+.mapa p{
     margin: 0 0 2em;
     text-align: center;
+    
+    width: 940px;
+    margin: 0 auto;
 }
+.mapa-contenido{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.diferenciales{
+    padding: 3em 0;
+    background-color: #888;
+}
+
 .contenido-diferenciales{
     width: 640px;
+    margin: 0 auto;
 }
+
+.lista-diferenciales{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.items{
+    line-height: 1.5;
+}
+
+.items::before{
+    content: "★";
+}
+
+.items:first-child{
+    font-weight: bold;
+}
+
 .imagenDiferencial{
     width: 60%;
 }
